@@ -11,7 +11,7 @@ public class Runner {
 
         binarySearch B1 = new binarySearch();
 
-        int result = B1.Binary_Search(numbers, n, 150);
+        int result = B1.Binary_Search(numbers, n, 100);
 
         if (result != -1) {
             System.out.println("The input is present at index " + result + ".");
